@@ -16,13 +16,13 @@ var clientConfigs = {
 };
 Response.client = new rpc.Client({
 	port: 8545,
-	host: nodeInfo.node_ip,
+	host: '37.143.13.112',
 	path: '/',
 	strict: true
 });
 Response.clientClassic = new rpc.Client({
 	port: 8545,
-	host: nodeInfo.node_classic_ip,
+	host: '37.143.13.112',
 	path: '/',
 	strict: true
 });

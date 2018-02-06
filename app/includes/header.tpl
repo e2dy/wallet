@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Genom Wallet</title>
 <meta name="description" content="This is online wallet for Genom. Awesome!">
-<link rel="canonical" href="https://wallet.genom.tech" />
+<link rel="canonical" href="http://wallet.genom.tech" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
@@ -22,7 +22,7 @@
 
 <meta name="apple-mobile-web-app-title" content="Genom Wallet &middot; Your Key to Genom">
 <meta name="application-name" content="Genom Wallet">
-<meta property="og:url" content="https://wallet.genom.tech" />
+<meta property="og:url" content="http://wallet.genom.tech" />
 <meta property="og:title" content="Genom Wallet" />
 <meta property="og:description" content="This is online wallet for Genom. Awesome!" />
 </head>

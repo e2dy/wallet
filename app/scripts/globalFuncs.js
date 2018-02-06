@@ -169,7 +169,7 @@ globalFuncs.stripTags = function(str) {
 globalFuncs.checkAndRedirectHTTPS = function() {
 	/*
     var host = "wallet.genom.tech";
-    var hostw = "https://wallet.genom.tech";
+    var hostw = "http://wallet.genom.tech";
     var path = window.location.pathname;
     if (host == window.location.host) window.location = hostw + path;*/
 };

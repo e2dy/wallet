@@ -23,8 +23,8 @@ nodes.customNodeObj = {
 nodes.nodeList = {
     'eth_mew': {
         'name': 'GEN',
-        'blockExplorerTX': 'https://explorer.genom.tech/tx/[[txHash]]',
-        'blockExplorerAddr': 'https://explorer.genom.tech/addr/[[address]]',
+        'blockExplorerTX': 'http://explorer.genom.tech/tx/[[txHash]]',
+        'blockExplorerAddr': 'http://explorer.genom.tech/addr/[[address]]',
         'type': nodes.nodeTypes.GEN,
         'eip155': true,
         'chainId': 200666,
