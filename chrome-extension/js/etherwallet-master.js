@@ -6243,7 +6243,7 @@ nodes.nodeList = {
         'blockExplorerAddr': 'https://explorer.genom.tech/addr/[[address]]',
         'type': nodes.nodeTypes.ETH,
         'eip155': true,
-        'chainId': 200666,
+        'chainId': 200665,
         'tokenList': [],
         'abiList': [],
         'service': 'Genom Wallet',
