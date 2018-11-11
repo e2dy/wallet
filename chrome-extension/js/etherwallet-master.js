@@ -6247,7 +6247,7 @@ nodes.nodeList = {
         'tokenList': [],
         'abiList': [],
         'service': 'Genom Wallet',
-        'lib': new nodes.customNode('http://127.0.0.1', '8545')
+        'lib': new nodes.customNode('https://rpc.genom.tech', '443')
     }
 };
 
