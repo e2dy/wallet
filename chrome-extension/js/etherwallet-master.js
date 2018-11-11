@@ -2961,7 +2961,7 @@ var txStatusCtrl = function ($scope) {
                 from: ethUtil.toChecksumAddress(tx.from),
                 to: tx.to ? ethUtil.toChecksumAddress(tx.to) : '',
                 value: new BigNumber(tx.value).toString(),
-                valueStr: etherUnits.toEther(tx.value, 'wei') + " GEN",
+                valueStr: etherUnits.toEther(tx.value, 'wei') + " GENOM",
                 gasLimit: new BigNumber(tx.gas).toString(),
                 gasPrice: {
                     wei: new BigNumber(tx.gasPrice).toString(),
@@ -6220,7 +6220,7 @@ nodes.customNode = require('./nodeHelpers/customNode');
 nodes.infuraNode = require('./nodeHelpers/infura');
 nodes.metamaskNode = require('./nodeHelpers/metamask');
 nodes.nodeTypes = {
-    GEN: "Genom",
+    GENOM: "Genom",
     Custom: "CUSTOM"
 };
 nodes.ensNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten];
@@ -6238,7 +6238,7 @@ nodes.customNodeObj = {
 };
 nodes.nodeList = {
     'eth_mew': {
-        'name': 'GEN',
+        'name': 'GENOM',
         'blockExplorerTX': 'https://explorer.genom.tech/block/[[txHash]]',
         'blockExplorerAddr': 'https://explorer.genom.tech/addr/[[address]]',
         'type': nodes.nodeTypes.ETH,
